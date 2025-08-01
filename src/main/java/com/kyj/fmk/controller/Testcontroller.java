@@ -11,6 +11,7 @@ public class Testcontroller {
 
     @PublicEndpoint
     @GetMapping("/")
+
     public String test(){
         return "chat";
     }
